@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image";
 
 export default function Home() {
@@ -58,6 +60,7 @@ export default function Home() {
           >
             Documentation
           </a>
+          <button onClick={() => window.alert("WKKWKWK")}>OKEWE COOO</button>
         </div>
       </main>
     </div>
